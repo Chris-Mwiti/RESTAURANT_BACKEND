@@ -6723,3 +6723,471 @@ Inconsistent column data: Malformed ObjectID: invalid character 'u' was found at
 2024-04-01T11:21:22.692Z	[orders]	info	Creating new order
 2024-04-01T11:26:20.346Z	[restuarant/product]	info	Fetching restuarant products
 2024-04-01T11:26:24.331Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-10T08:39:26.494Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-10T08:39:35.141Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-10T08:39:40.134Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-10T08:39:47.159Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-10T08:39:57.266Z	[async_error]	error	null
+2024-04-10T08:39:57.269Z	[[DB_ERROR]]	error	Error while fetching product infos	PrismaClientKnownRequestError: 
+Invalid `this.model.findMany()` invocation in
+D:\WORK\Projects\SIDE_PROJECTS\HOTELS_BACKEND_PROJECT\src\models\Products.ts:151:26
+
+  148 public static async getProductByRestuarantType(type: Product["typeOfResturant"]){
+  149   logger("restuarant/product").info("Fetching restuarant products")
+  150   const {data: productInfos, error:fetchErr } = await trycatchHelper<Product[]>(
+→ 151       () => this.model.findMany(
+Raw query failed. Code: `unknown`. Message: `Kind: Server selection timeout: No available servers. Topology: { Type: ReplicaSetNoPrimary, Set Name: atlas-74jcqy-shard-0, Servers: [ { Address: ac-zemxwgt-shard-00-02.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-00.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-01.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} } ] }, labels: {}`
+2024-04-10T08:39:57.272Z	[async_error]	error	null
+2024-04-10T08:40:05.175Z	[async_error]	error	null
+2024-04-10T08:40:05.179Z	[[DB_ERROR]]	error	Error while fetching product infos	PrismaClientKnownRequestError: 
+Invalid `this.model.findMany()` invocation in
+D:\WORK\Projects\SIDE_PROJECTS\HOTELS_BACKEND_PROJECT\src\models\Products.ts:151:26
+
+  148 public static async getProductByRestuarantType(type: Product["typeOfResturant"]){
+  149   logger("restuarant/product").info("Fetching restuarant products")
+  150   const {data: productInfos, error:fetchErr } = await trycatchHelper<Product[]>(
+→ 151       () => this.model.findMany(
+Raw query failed. Code: `unknown`. Message: `Kind: Server selection timeout: No available servers. Topology: { Type: ReplicaSetNoPrimary, Set Name: atlas-74jcqy-shard-0, Servers: [ { Address: ac-zemxwgt-shard-00-02.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-00.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-01.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} } ] }, labels: {}`
+2024-04-10T08:40:05.186Z	[async_error]	error	null
+2024-04-10T08:40:10.157Z	[async_error]	error	null
+2024-04-10T08:40:10.160Z	[[DB_ERROR]]	error	Error while fetching product infos	PrismaClientKnownRequestError: 
+Invalid `this.model.findMany()` invocation in
+D:\WORK\Projects\SIDE_PROJECTS\HOTELS_BACKEND_PROJECT\src\models\Products.ts:151:26
+
+  148 public static async getProductByRestuarantType(type: Product["typeOfResturant"]){
+  149   logger("restuarant/product").info("Fetching restuarant products")
+  150   const {data: productInfos, error:fetchErr } = await trycatchHelper<Product[]>(
+→ 151       () => this.model.findMany(
+Raw query failed. Code: `unknown`. Message: `Kind: Server selection timeout: No available servers. Topology: { Type: ReplicaSetNoPrimary, Set Name: atlas-74jcqy-shard-0, Servers: [ { Address: ac-zemxwgt-shard-00-02.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-00.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-01.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} } ] }, labels: {}`
+2024-04-10T08:40:10.167Z	[async_error]	error	null
+2024-04-10T08:40:17.187Z	[async_error]	error	null
+2024-04-10T08:40:17.189Z	[[DB_ERROR]]	error	Error while fetching product infos	PrismaClientKnownRequestError: 
+Invalid `this.model.findMany()` invocation in
+D:\WORK\Projects\SIDE_PROJECTS\HOTELS_BACKEND_PROJECT\src\models\Products.ts:151:26
+
+  148 public static async getProductByRestuarantType(type: Product["typeOfResturant"]){
+  149   logger("restuarant/product").info("Fetching restuarant products")
+  150   const {data: productInfos, error:fetchErr } = await trycatchHelper<Product[]>(
+→ 151       () => this.model.findMany(
+Raw query failed. Code: `unknown`. Message: `Kind: Server selection timeout: No available servers. Topology: { Type: ReplicaSetNoPrimary, Set Name: atlas-74jcqy-shard-0, Servers: [ { Address: ac-zemxwgt-shard-00-02.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-00.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-01.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} } ] }, labels: {}`
+2024-04-10T08:40:17.194Z	[async_error]	error	null
+2024-04-10T08:42:04.825Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-10T08:42:08.815Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-10T08:42:13.829Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-10T08:42:34.857Z	[async_error]	error	null
+2024-04-10T08:42:34.861Z	[[DB_ERROR]]	error	Error while fetching product infos	PrismaClientKnownRequestError: 
+Invalid `this.model.findMany()` invocation in
+D:\WORK\Projects\SIDE_PROJECTS\HOTELS_BACKEND_PROJECT\src\models\Products.ts:151:26
+
+  148 public static async getProductByRestuarantType(type: Product["typeOfResturant"]){
+  149   logger("restuarant/product").info("Fetching restuarant products")
+  150   const {data: productInfos, error:fetchErr } = await trycatchHelper<Product[]>(
+→ 151       () => this.model.findMany(
+Raw query failed. Code: `unknown`. Message: `Kind: Server selection timeout: No available servers. Topology: { Type: ReplicaSetNoPrimary, Set Name: atlas-74jcqy-shard-0, Servers: [ { Address: ac-zemxwgt-shard-00-02.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-00.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-01.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} } ] }, labels: {}`
+2024-04-10T08:42:34.865Z	[async_error]	error	null
+2024-04-10T08:42:38.833Z	[async_error]	error	null
+2024-04-10T08:42:38.837Z	[[DB_ERROR]]	error	Error while fetching product infos	PrismaClientKnownRequestError: 
+Invalid `this.model.findMany()` invocation in
+D:\WORK\Projects\SIDE_PROJECTS\HOTELS_BACKEND_PROJECT\src\models\Products.ts:151:26
+
+  148 public static async getProductByRestuarantType(type: Product["typeOfResturant"]){
+  149   logger("restuarant/product").info("Fetching restuarant products")
+  150   const {data: productInfos, error:fetchErr } = await trycatchHelper<Product[]>(
+→ 151       () => this.model.findMany(
+Raw query failed. Code: `unknown`. Message: `Kind: Server selection timeout: No available servers. Topology: { Type: ReplicaSetNoPrimary, Set Name: atlas-74jcqy-shard-0, Servers: [ { Address: ac-zemxwgt-shard-00-02.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-00.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-01.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} } ] }, labels: {}`
+2024-04-10T08:42:38.849Z	[async_error]	error	null
+2024-04-10T08:42:43.849Z	[async_error]	error	null
+2024-04-10T08:42:43.851Z	[[DB_ERROR]]	error	Error while fetching product infos	PrismaClientKnownRequestError: 
+Invalid `this.model.findMany()` invocation in
+D:\WORK\Projects\SIDE_PROJECTS\HOTELS_BACKEND_PROJECT\src\models\Products.ts:151:26
+
+  148 public static async getProductByRestuarantType(type: Product["typeOfResturant"]){
+  149   logger("restuarant/product").info("Fetching restuarant products")
+  150   const {data: productInfos, error:fetchErr } = await trycatchHelper<Product[]>(
+→ 151       () => this.model.findMany(
+Raw query failed. Code: `unknown`. Message: `Kind: Server selection timeout: No available servers. Topology: { Type: ReplicaSetNoPrimary, Set Name: atlas-74jcqy-shard-0, Servers: [ { Address: ac-zemxwgt-shard-00-02.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-00.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-01.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} } ] }, labels: {}`
+2024-04-10T08:42:43.855Z	[async_error]	error	null
+2024-04-10T08:45:04.553Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-10T08:46:30.887Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-10T08:46:33.976Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-10T09:01:10.233Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:24:41.963Z	[error]	error	An Error has occurred
+2024-04-11T07:30:36.094Z	[cetegory]	info	Creating category
+2024-04-11T07:31:16.109Z	[cetegory]	info	Creating category
+2024-04-11T07:38:10.407Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:38:14.890Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:38:52.827Z	[products]	info	Creating many products
+2024-04-11T07:39:57.944Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:40:16.952Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:40:23.938Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:41:49.821Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:48:12.420Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:48:16.423Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:50:09.047Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:50:19.574Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:50:21.014Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:56:38.149Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:56:41.106Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:56:42.122Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:56:43.321Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:58:34.225Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:58:35.113Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:58:37.304Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T07:58:49.270Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:08:30.696Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:10:00.165Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:12:02.631Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:12:06.642Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:14:48.606Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:14:51.605Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:15:02.875Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:15:04.354Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:15:05.241Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:15:17.792Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:15:18.697Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:15:19.585Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:15:20.472Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:15:21.363Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:15:22.260Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:16:01.441Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:27:46.307Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:27:50.328Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:28:23.543Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:28:55.231Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:30:42.558Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:31:11.859Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:31:48.069Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:31:55.623Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:32:23.558Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:32:41.419Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:33:02.061Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:33:07.126Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:33:09.049Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:35:21.187Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T08:35:25.176Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T09:01:35.011Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T09:04:01.407Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T09:04:05.419Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T09:04:12.743Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T09:05:22.085Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T09:05:25.300Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T09:05:33.075Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T09:05:35.401Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T09:06:34.002Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T09:25:36.432Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T09:26:00.765Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T09:30:36.272Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T09:30:40.255Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T10:03:51.272Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-11T10:04:09.506Z	[orders]	info	Fetching order
+2024-04-11T10:04:38.396Z	[orders]	info	Creating new order
+2024-04-11T10:04:40.611Z	[orderItem]	info	Creating order item
+2024-04-11T10:04:49.772Z	[orders]	info	Fetching order
+2024-04-14T12:15:29.273Z	[orders]	info	Fetching order
+2024-04-14T12:15:29.320Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:15:34.206Z	[orders]	info	Fetching order
+2024-04-14T12:15:34.215Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:15:39.376Z	[orders]	info	Fetching order
+2024-04-14T12:15:39.388Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:16:15.288Z	[orders]	info	Fetching order
+2024-04-14T12:16:15.292Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:16:16.834Z	[orders]	info	Fetching order
+2024-04-14T12:16:24.605Z	[orders]	info	Fetching order
+2024-04-14T12:16:24.610Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:16:26.090Z	[orders]	info	Fetching order
+2024-04-14T12:16:27.587Z	[orders]	info	Fetching order
+2024-04-14T12:16:38.617Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:16:38.613Z	[orders]	info	Fetching order
+2024-04-14T12:16:40.119Z	[orders]	info	Fetching order
+2024-04-14T12:16:41.666Z	[orders]	info	Fetching order
+2024-04-14T12:16:41.746Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:16:42.186Z	[orders]	info	Fetching order
+2024-04-14T12:16:42.741Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:16:43.645Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:16:44.543Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:16:44.731Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:16:44.764Z	[orders]	info	Fetching order
+2024-04-14T12:16:44.850Z	[orders]	info	Fetching order
+2024-04-14T12:16:44.938Z	[orders]	info	Fetching order
+2024-04-14T12:16:45.730Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:16:46.199Z	[orders]	info	Fetching order
+2024-04-14T12:16:46.643Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:16:47.711Z	[orders]	info	Fetching order
+2024-04-14T12:16:48.826Z	[orders]	info	Fetching order
+2024-04-14T12:16:48.932Z	[orders]	info	Fetching order
+2024-04-14T12:16:49.756Z	[orders]	info	Fetching order
+2024-04-14T12:16:51.214Z	[orders]	info	Fetching order
+2024-04-14T12:16:53.837Z	[orders]	info	Fetching order
+2024-04-14T12:16:53.951Z	[orders]	info	Fetching order
+2024-04-14T12:16:56.082Z	[orders]	info	Fetching order
+2024-04-14T12:16:57.843Z	[orders]	info	Fetching order
+2024-04-14T12:16:59.383Z	[orders]	info	Fetching order
+2024-04-14T12:35:14.047Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:35:14.077Z	[orders]	info	Fetching order
+2024-04-14T12:35:17.990Z	[orders]	info	Fetching order
+2024-04-14T12:35:17.995Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:35:20.415Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:35:20.988Z	[orders]	info	Fetching order
+2024-04-14T12:35:21.004Z	[orders]	info	Fetching order
+2024-04-14T12:35:21.012Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:35:21.018Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:35:22.995Z	[orders]	info	Fetching order
+2024-04-14T12:35:22.998Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:35:23.928Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:35:24.693Z	[orders]	info	Fetching order
+2024-04-14T12:35:24.946Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:35:25.821Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:35:25.988Z	[orders]	info	Fetching order
+2024-04-14T12:35:25.996Z	[orders]	info	Fetching order
+2024-04-14T12:35:26.002Z	[orders]	info	Fetching order
+2024-04-14T12:35:30.014Z	[orders]	info	Fetching order
+2024-04-14T12:35:30.021Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:35:31.715Z	[orders]	info	Fetching order
+2024-04-14T12:35:33.039Z	[orders]	info	Fetching order
+2024-04-14T12:35:43.373Z	[orders]	info	Fetching order
+2024-04-14T12:35:43.377Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:35:45.285Z	[orders]	info	Fetching order
+2024-04-14T12:35:47.084Z	[orders]	info	Fetching order
+2024-04-14T12:35:47.193Z	[orders]	info	Fetching order
+2024-04-14T12:35:47.212Z	[orders]	info	Fetching order
+2024-04-14T12:35:47.228Z	[orders]	info	Fetching order
+2024-04-14T12:35:51.576Z	[orders]	info	Fetching order
+2024-04-14T12:35:51.579Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:35:53.487Z	[orders]	info	Fetching order
+2024-04-14T12:35:55.157Z	[orders]	info	Fetching order
+2024-04-14T12:35:57.202Z	[orders]	info	Fetching order
+2024-04-14T12:35:57.206Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:35:59.005Z	[orders]	info	Fetching order
+2024-04-14T12:35:59.511Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:00.821Z	[orders]	info	Fetching order
+2024-04-14T12:36:02.581Z	[orders]	info	Fetching order
+2024-04-14T12:36:03.240Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:03.319Z	[orders]	info	Fetching order
+2024-04-14T12:36:05.448Z	[orders]	info	Fetching order
+2024-04-14T12:36:07.204Z	[orders]	info	Fetching order
+2024-04-14T12:36:07.208Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:08.419Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:08.842Z	[orders]	info	Fetching order
+2024-04-14T12:36:10.362Z	[orders]	info	Fetching order
+2024-04-14T12:36:12.261Z	[orders]	info	Fetching order
+2024-04-14T12:36:12.296Z	[orders]	info	Fetching order
+2024-04-14T12:36:25.361Z	[orders]	info	Fetching order
+2024-04-14T12:36:25.365Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:26.756Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:26.865Z	[orders]	info	Fetching order
+2024-04-14T12:36:29.184Z	[orders]	info	Fetching order
+2024-04-14T12:36:29.772Z	[orders]	info	Fetching order
+2024-04-14T12:36:34.451Z	[orders]	info	Fetching order
+2024-04-14T12:36:34.454Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:35.985Z	[orders]	info	Fetching order
+2024-04-14T12:36:37.583Z	[orders]	info	Fetching order
+2024-04-14T12:36:37.587Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:39.032Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:39.123Z	[orders]	info	Fetching order
+2024-04-14T12:36:40.110Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:40.700Z	[orders]	info	Fetching order
+2024-04-14T12:36:41.028Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:41.356Z	[orders]	info	Fetching order
+2024-04-14T12:36:41.959Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:42.358Z	[orders]	info	Fetching order
+2024-04-14T12:36:43.090Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:44.009Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:44.313Z	[orders]	info	Fetching order
+2024-04-14T12:36:44.888Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:45.824Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:46.080Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:46.099Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:46.114Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:46.123Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:46.153Z	[orders]	info	Fetching order
+2024-04-14T12:36:47.144Z	[orders]	info	Fetching order
+2024-04-14T12:36:48.440Z	[orders]	info	Fetching order
+2024-04-14T12:36:48.488Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:49.542Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:50.378Z	[orders]	info	Fetching order
+2024-04-14T12:36:50.612Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:51.538Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:51.557Z	[orders]	info	Fetching order
+2024-04-14T12:36:51.561Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:52.713Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:53.378Z	[orders]	info	Fetching order
+2024-04-14T12:36:53.646Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:36:54.163Z	[orders]	info	Fetching order
+2024-04-14T12:36:54.178Z	[orders]	info	Fetching order
+2024-04-14T12:36:54.196Z	[orders]	info	Fetching order
+2024-04-14T12:36:54.213Z	[orders]	info	Fetching order
+2024-04-14T12:36:54.232Z	[orders]	info	Fetching order
+2024-04-14T12:36:54.241Z	[orders]	info	Fetching order
+2024-04-14T12:36:54.251Z	[orders]	info	Fetching order
+2024-04-14T12:36:54.265Z	[orders]	info	Fetching order
+2024-04-14T12:36:54.281Z	[orders]	info	Fetching order
+2024-04-14T12:36:54.290Z	[orders]	info	Fetching order
+2024-04-14T12:36:54.312Z	[orders]	info	Fetching order
+2024-04-14T12:36:55.187Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:20.360Z	[orders]	info	Fetching order
+2024-04-14T12:37:20.363Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:21.888Z	[orders]	info	Fetching order
+2024-04-14T12:37:23.632Z	[orders]	info	Fetching order
+2024-04-14T12:37:24.205Z	[orders]	info	Fetching order
+2024-04-14T12:37:24.211Z	[orders]	info	Fetching order
+2024-04-14T12:37:24.235Z	[orders]	info	Fetching order
+2024-04-14T12:37:24.251Z	[orders]	info	Fetching order
+2024-04-14T12:37:24.284Z	[orders]	info	Fetching order
+2024-04-14T12:37:24.293Z	[orders]	info	Fetching order
+2024-04-14T12:37:24.314Z	[orders]	info	Fetching order
+2024-04-14T12:37:24.329Z	[orders]	info	Fetching order
+2024-04-14T12:37:24.344Z	[orders]	info	Fetching order
+2024-04-14T12:37:24.417Z	[orders]	info	Fetching order
+2024-04-14T12:37:25.212Z	[orders]	info	Fetching order
+2024-04-14T12:37:25.216Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:26.421Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:27.198Z	[orders]	info	Fetching order
+2024-04-14T12:37:28.009Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:28.661Z	[orders]	info	Fetching order
+2024-04-14T12:37:28.724Z	[orders]	info	Fetching order
+2024-04-14T12:37:28.751Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:28.805Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:28.818Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:28.822Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:28.825Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:28.833Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:28.842Z	[orders]	info	Fetching order
+2024-04-14T12:37:28.852Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:28.856Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:28.868Z	[orders]	info	Fetching order
+2024-04-14T12:37:29.661Z	[orders]	info	Fetching order
+2024-04-14T12:37:29.718Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:30.826Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:31.433Z	[orders]	info	Fetching order
+2024-04-14T12:37:31.727Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:32.614Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:32.724Z	[orders]	info	Fetching order
+2024-04-14T12:37:32.726Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:33.608Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:34.166Z	[orders]	info	Fetching order
+2024-04-14T12:37:34.174Z	[orders]	info	Fetching order
+2024-04-14T12:37:34.184Z	[orders]	info	Fetching order
+2024-04-14T12:37:34.722Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:35.611Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:35.728Z	[orders]	info	Fetching order
+2024-04-14T12:37:35.774Z	[orders]	info	Fetching order
+2024-04-14T12:37:35.784Z	[orders]	info	Fetching order
+2024-04-14T12:37:37.543Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:37.598Z	[orders]	info	Fetching order
+2024-04-14T12:37:38.453Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:40.014Z	[orders]	info	Fetching order
+2024-04-14T12:37:40.196Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:40.557Z	[orders]	info	Fetching order
+2024-04-14T12:37:41.198Z	[orders]	info	Fetching order
+2024-04-14T12:37:41.253Z	[orders]	info	Fetching order
+2024-04-14T12:37:41.273Z	[orders]	info	Fetching order
+2024-04-14T12:37:41.569Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:41.575Z	[orders]	info	Fetching order
+2024-04-14T12:37:41.579Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:41.582Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:42.906Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:42.920Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:42.926Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:43.607Z	[orders]	info	Fetching order
+2024-04-14T12:37:43.852Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:43.862Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:44.253Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:46.589Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:46.603Z	[orders]	info	Fetching order
+2024-04-14T12:37:47.487Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:37:48.131Z	[orders]	info	Fetching order
+2024-04-14T12:37:48.594Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:38:02.256Z	[orders]	info	Fetching order
+2024-04-14T12:38:02.259Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:38:03.867Z	[orders]	info	Fetching order
+2024-04-14T12:38:05.443Z	[orders]	info	Fetching order
+2024-04-14T12:38:06.196Z	[orders]	info	Fetching order
+2024-04-14T12:38:06.245Z	[orders]	info	Fetching order
+2024-04-14T12:38:06.304Z	[orders]	info	Fetching order
+2024-04-14T12:38:06.322Z	[orders]	info	Fetching order
+2024-04-14T12:38:06.340Z	[orders]	info	Fetching order
+2024-04-14T12:38:06.351Z	[orders]	info	Fetching order
+2024-04-14T12:38:06.368Z	[orders]	info	Fetching order
+2024-04-14T12:38:06.383Z	[orders]	info	Fetching order
+2024-04-14T12:38:06.398Z	[orders]	info	Fetching order
+2024-04-14T12:38:06.415Z	[orders]	info	Fetching order
+2024-04-14T12:38:06.433Z	[orders]	info	Fetching order
+2024-04-14T12:38:06.451Z	[orders]	info	Fetching order
+2024-04-14T12:38:07.221Z	[orders]	info	Fetching order
+2024-04-14T12:38:07.225Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:38:09.210Z	[orders]	info	Fetching order
+2024-04-14T12:38:10.077Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:38:11.132Z	[orders]	info	Fetching order
+2024-04-14T12:38:11.393Z	[orders]	info	Fetching order
+2024-04-14T12:38:13.049Z	[orders]	info	Fetching order
+2024-04-14T12:38:14.773Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:38:14.779Z	[orders]	info	Fetching order
+2024-04-14T12:38:16.298Z	[orders]	info	Fetching order
+2024-04-14T12:40:19.192Z	[orders]	info	Fetching order
+2024-04-14T12:40:19.195Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:40:24.840Z	[orders]	info	Fetching order
+2024-04-14T12:40:24.844Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:40:55.293Z	[orders]	info	Fetching order
+2024-04-14T12:40:55.298Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:40:56.257Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:40:56.920Z	[orders]	info	Fetching order
+2024-04-14T12:41:01.329Z	[orders]	info	Fetching order
+2024-04-14T12:41:01.334Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:02.292Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:02.989Z	[orders]	info	Fetching order
+2024-04-14T12:41:03.212Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:04.298Z	[orders]	info	Fetching order
+2024-04-14T12:41:11.100Z	[orders]	info	Fetching order
+2024-04-14T12:41:11.108Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:12.658Z	[orders]	info	Fetching order
+2024-04-14T12:41:14.513Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:14.524Z	[orders]	info	Fetching order
+2024-04-14T12:41:15.455Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:16.340Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:16.569Z	[orders]	info	Fetching order
+2024-04-14T12:41:17.243Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:17.529Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:17.535Z	[orders]	info	Fetching order
+2024-04-14T12:41:17.841Z	[orders]	info	Fetching order
+2024-04-14T12:41:18.544Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:18.862Z	[orders]	info	Fetching order
+2024-04-14T12:41:19.539Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:33.821Z	[orders]	info	Fetching order
+2024-04-14T12:41:33.828Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:34.774Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:35.344Z	[orders]	info	Fetching order
+2024-04-14T12:41:35.712Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:36.658Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:36.869Z	[orders]	info	Fetching order
+2024-04-14T12:41:37.338Z	[orders]	info	Fetching order
+2024-04-14T12:41:37.446Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:37.479Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:37.496Z	[orders]	info	Fetching order
+2024-04-14T12:41:37.501Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:38.712Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:39.810Z	[orders]	info	Fetching order
+2024-04-14T12:41:39.812Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:40.800Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:53.601Z	[orders]	info	Fetching order
+2024-04-14T12:41:53.604Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:41:59.247Z	[orders]	info	Fetching order
+2024-04-14T12:41:59.253Z	[restuarant/product]	info	Fetching restuarant products
+2024-04-14T12:45:54.295Z	[orders]	info	Creating new order
+2024-04-14T12:45:56.128Z	[orderItem]	info	Creating order item
+2024-04-14T12:45:56.134Z	[orderItem]	info	Creating order item
+2024-04-14T12:48:24.470Z	[orders]	info	Fetching order
+2024-04-14T12:52:50.815Z	[orders]	info	Fetching order
+2024-04-14T14:13:41.364Z	[orders]	info	Fetching order
+2024-04-14T14:13:48.288Z	[orders]	info	Fetching order
+2024-04-14T15:27:45.701Z	[orders]	info	Fetching order
+2024-04-14T15:27:49.615Z	[orders]	info	Fetching order
+2024-04-14T15:27:54.635Z	[orders]	info	Fetching order
+2024-04-14T15:35:43.739Z	[orders]	info	Fetching order
+2024-04-14T15:35:46.753Z	[orders]	info	Fetching order
+2024-04-14T15:35:47.148Z	[orders]	info	Fetching order
+2024-04-14T15:35:48.318Z	[orders]	info	Fetching order
+2024-04-14T15:35:50.101Z	[orders]	info	Fetching order
+2024-04-14T15:35:52.328Z	[orders]	info	Fetching order
+2024-04-14T15:36:04.245Z	[orders]	info	Fetching order
+2024-04-14T15:36:07.527Z	[orders]	info	Fetching order
+2024-04-14T15:36:09.129Z	[orders]	info	Fetching order

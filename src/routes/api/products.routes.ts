@@ -23,6 +23,9 @@ ProductRouter.route("/")
   })
   .post(async (req, res) => {
     const productController = new ProductController(req, res);
+    if(Array.isArray(req.body)){
+      return await productController.createManyProducts();  
+    }
     await productController.createProduct();
   })
   .delete(async (req, res) => {

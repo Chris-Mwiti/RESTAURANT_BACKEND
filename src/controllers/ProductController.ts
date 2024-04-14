@@ -46,6 +46,20 @@ class ProductController {
     new ResponseHandler<Product | null>(this.res, newProduct).postResponse();
   }
 
+  public async createManyProducts(){
+    logger("products").info("Creating many products");
+
+    let productInfoObjs:INewProductInfoObj[] = this.req.body;
+
+    const { data:newProducts, error:postErr } = await trycatchHelper<Product[]>(
+      () => this.model.createManyProducts(productInfoObjs)
+    )
+
+    if(postErr) return checkErrProperties(this.res, postErr);
+
+    new ResponseHandler<Product[] | null>(this.res, newProducts).postResponse();
+  }
+
   public async getProducts() {
     const { data: products, error: fetchErr } = await trycatchHelper<
       Product[]

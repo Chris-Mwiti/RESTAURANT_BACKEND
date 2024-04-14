@@ -41,6 +41,7 @@ model Product {
   inventoryId String @unique @db.ObjectId
   category Category @relation(fields: [categoryId], references: [id])
   categoryId String @db.ObjectId 
+  itemCategoryType String?
   orderItem OrderItems[]
   asset ProductAsset[]
   typeOfResturant Resturants @default(casual)
@@ -150,6 +151,7 @@ model ShippingDetails {
 enum Resturants {
   casual
   classic
+  clothing
 }
 
 enum OrderStatus {

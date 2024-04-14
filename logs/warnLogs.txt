@@ -5551,3 +5551,81 @@ D:\WORK\Projects\SIDE_PROJECTS\HOTELS_BACKEND_PROJECT\src\models\Order.ts:132:20
 → 132       this.model.findUnique(
 Inconsistent column data: Malformed ObjectID: invalid character 'u' was found at index 0 in the provided hex string: "userOrders".
 2024-04-01T09:47:22.927Z	[async_error]	error	null
+2024-04-10T08:39:57.266Z	[async_error]	error	null
+2024-04-10T08:39:57.269Z	[[DB_ERROR]]	error	Error while fetching product infos	PrismaClientKnownRequestError: 
+Invalid `this.model.findMany()` invocation in
+D:\WORK\Projects\SIDE_PROJECTS\HOTELS_BACKEND_PROJECT\src\models\Products.ts:151:26
+
+  148 public static async getProductByRestuarantType(type: Product["typeOfResturant"]){
+  149   logger("restuarant/product").info("Fetching restuarant products")
+  150   const {data: productInfos, error:fetchErr } = await trycatchHelper<Product[]>(
+→ 151       () => this.model.findMany(
+Raw query failed. Code: `unknown`. Message: `Kind: Server selection timeout: No available servers. Topology: { Type: ReplicaSetNoPrimary, Set Name: atlas-74jcqy-shard-0, Servers: [ { Address: ac-zemxwgt-shard-00-02.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-00.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-01.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} } ] }, labels: {}`
+2024-04-10T08:39:57.272Z	[async_error]	error	null
+2024-04-10T08:40:05.175Z	[async_error]	error	null
+2024-04-10T08:40:05.179Z	[[DB_ERROR]]	error	Error while fetching product infos	PrismaClientKnownRequestError: 
+Invalid `this.model.findMany()` invocation in
+D:\WORK\Projects\SIDE_PROJECTS\HOTELS_BACKEND_PROJECT\src\models\Products.ts:151:26
+
+  148 public static async getProductByRestuarantType(type: Product["typeOfResturant"]){
+  149   logger("restuarant/product").info("Fetching restuarant products")
+  150   const {data: productInfos, error:fetchErr } = await trycatchHelper<Product[]>(
+→ 151       () => this.model.findMany(
+Raw query failed. Code: `unknown`. Message: `Kind: Server selection timeout: No available servers. Topology: { Type: ReplicaSetNoPrimary, Set Name: atlas-74jcqy-shard-0, Servers: [ { Address: ac-zemxwgt-shard-00-02.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-00.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-01.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} } ] }, labels: {}`
+2024-04-10T08:40:05.186Z	[async_error]	error	null
+2024-04-10T08:40:10.157Z	[async_error]	error	null
+2024-04-10T08:40:10.160Z	[[DB_ERROR]]	error	Error while fetching product infos	PrismaClientKnownRequestError: 
+Invalid `this.model.findMany()` invocation in
+D:\WORK\Projects\SIDE_PROJECTS\HOTELS_BACKEND_PROJECT\src\models\Products.ts:151:26
+
+  148 public static async getProductByRestuarantType(type: Product["typeOfResturant"]){
+  149   logger("restuarant/product").info("Fetching restuarant products")
+  150   const {data: productInfos, error:fetchErr } = await trycatchHelper<Product[]>(
+→ 151       () => this.model.findMany(
+Raw query failed. Code: `unknown`. Message: `Kind: Server selection timeout: No available servers. Topology: { Type: ReplicaSetNoPrimary, Set Name: atlas-74jcqy-shard-0, Servers: [ { Address: ac-zemxwgt-shard-00-02.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-00.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-01.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} } ] }, labels: {}`
+2024-04-10T08:40:10.167Z	[async_error]	error	null
+2024-04-10T08:40:17.187Z	[async_error]	error	null
+2024-04-10T08:40:17.189Z	[[DB_ERROR]]	error	Error while fetching product infos	PrismaClientKnownRequestError: 
+Invalid `this.model.findMany()` invocation in
+D:\WORK\Projects\SIDE_PROJECTS\HOTELS_BACKEND_PROJECT\src\models\Products.ts:151:26
+
+  148 public static async getProductByRestuarantType(type: Product["typeOfResturant"]){
+  149   logger("restuarant/product").info("Fetching restuarant products")
+  150   const {data: productInfos, error:fetchErr } = await trycatchHelper<Product[]>(
+→ 151       () => this.model.findMany(
+Raw query failed. Code: `unknown`. Message: `Kind: Server selection timeout: No available servers. Topology: { Type: ReplicaSetNoPrimary, Set Name: atlas-74jcqy-shard-0, Servers: [ { Address: ac-zemxwgt-shard-00-02.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-00.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-01.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} } ] }, labels: {}`
+2024-04-10T08:40:17.194Z	[async_error]	error	null
+2024-04-10T08:42:34.857Z	[async_error]	error	null
+2024-04-10T08:42:34.861Z	[[DB_ERROR]]	error	Error while fetching product infos	PrismaClientKnownRequestError: 
+Invalid `this.model.findMany()` invocation in
+D:\WORK\Projects\SIDE_PROJECTS\HOTELS_BACKEND_PROJECT\src\models\Products.ts:151:26
+
+  148 public static async getProductByRestuarantType(type: Product["typeOfResturant"]){
+  149   logger("restuarant/product").info("Fetching restuarant products")
+  150   const {data: productInfos, error:fetchErr } = await trycatchHelper<Product[]>(
+→ 151       () => this.model.findMany(
+Raw query failed. Code: `unknown`. Message: `Kind: Server selection timeout: No available servers. Topology: { Type: ReplicaSetNoPrimary, Set Name: atlas-74jcqy-shard-0, Servers: [ { Address: ac-zemxwgt-shard-00-02.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-00.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-01.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} } ] }, labels: {}`
+2024-04-10T08:42:34.865Z	[async_error]	error	null
+2024-04-10T08:42:38.833Z	[async_error]	error	null
+2024-04-10T08:42:38.837Z	[[DB_ERROR]]	error	Error while fetching product infos	PrismaClientKnownRequestError: 
+Invalid `this.model.findMany()` invocation in
+D:\WORK\Projects\SIDE_PROJECTS\HOTELS_BACKEND_PROJECT\src\models\Products.ts:151:26
+
+  148 public static async getProductByRestuarantType(type: Product["typeOfResturant"]){
+  149   logger("restuarant/product").info("Fetching restuarant products")
+  150   const {data: productInfos, error:fetchErr } = await trycatchHelper<Product[]>(
+→ 151       () => this.model.findMany(
+Raw query failed. Code: `unknown`. Message: `Kind: Server selection timeout: No available servers. Topology: { Type: ReplicaSetNoPrimary, Set Name: atlas-74jcqy-shard-0, Servers: [ { Address: ac-zemxwgt-shard-00-02.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-00.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-01.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} } ] }, labels: {}`
+2024-04-10T08:42:38.849Z	[async_error]	error	null
+2024-04-10T08:42:43.849Z	[async_error]	error	null
+2024-04-10T08:42:43.851Z	[[DB_ERROR]]	error	Error while fetching product infos	PrismaClientKnownRequestError: 
+Invalid `this.model.findMany()` invocation in
+D:\WORK\Projects\SIDE_PROJECTS\HOTELS_BACKEND_PROJECT\src\models\Products.ts:151:26
+
+  148 public static async getProductByRestuarantType(type: Product["typeOfResturant"]){
+  149   logger("restuarant/product").info("Fetching restuarant products")
+  150   const {data: productInfos, error:fetchErr } = await trycatchHelper<Product[]>(
+→ 151       () => this.model.findMany(
+Raw query failed. Code: `unknown`. Message: `Kind: Server selection timeout: No available servers. Topology: { Type: ReplicaSetNoPrimary, Set Name: atlas-74jcqy-shard-0, Servers: [ { Address: ac-zemxwgt-shard-00-02.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-00.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} }, { Address: ac-zemxwgt-shard-00-01.afkpmlc.mongodb.net:27017, Type: Unknown, Error: Kind: I/O error: received fatal alert: InternalError, labels: {} } ] }, labels: {}`
+2024-04-10T08:42:43.855Z	[async_error]	error	null
+2024-04-11T07:24:41.963Z	[error]	error	An Error has occurred

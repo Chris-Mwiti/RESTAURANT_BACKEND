@@ -117,6 +117,60 @@ class ProductModel {
     return productInfo;
   }
 
+  public static async createManyProducts(products:INewProductInfoObj[]){
+    const createPromises = products.map(async productInfoObj => {
+      const { data: createInfo, error: createErr } =
+        await trycatchHelper<Product>(() =>
+          this.model.create({
+            data: {
+              id: new ObjectId().toHexString(),
+              productName: productInfoObj.productName,
+              productDescription: productInfoObj.productDescription,
+              sellingPrice: parseInt(productInfoObj.sellingPrice),
+              //Product Properties
+              category: {
+                connectOrCreate: {
+                  where: {
+                    categoryName: productInfoObj.categoryName,
+                  },
+                  create: {
+                    id: new ObjectId().toHexString(),
+                    categoryName: productInfoObj.categoryName ?? "",
+                    categoryDescription:
+                      productInfoObj.categoryDescription ?? "",
+                  },
+                },
+              },
+              inventory: {
+                create: {
+                  id: new ObjectId().toHexString(),
+                  productName: productInfoObj.productName,
+                  quantity: parseInt(productInfoObj.inventory.quantity) ?? 0,
+                  lastRefilDate: new Date(),
+                },
+              },
+              typeOfResturant: productInfoObj.type,
+              asset: {
+                create: {
+                  id: new ObjectId().toHexString(),
+                  images: productInfoObj.imageUrl,
+                },
+              },
+            },
+          })
+        );
+      //Error handling
+      if(createErr) throw new DatabaseError({
+        message: ["Error while creating products", createErr as PrismaErrorTypes],
+        code: "500"
+      })
+
+      return createInfo
+    })
+
+      return await Promise.all(createPromises);
+  }
+
   public static async getAllProducts(joinProperties?: TProductInclude) {
     const { data: productInfos, error: fetchError } = await trycatchHelper<
       Product[]
